@@ -589,6 +589,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@graphql-tools/url-loader", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:7.16.5"],\
             ["@graphql-tools/utils", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:8.13.0"],\
             ["@types/graphql", null],\
+            ["@types/node", "npm:18.11.7"],\
             ["@whatwg-node/fetch", "npm:0.3.2"],\
             ["ansi-escapes", "npm:4.3.2"],\
             ["chalk", "npm:4.1.2"],\
@@ -608,7 +609,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["shell-quote", "npm:1.7.4"],\
             ["string-env-interpolation", "npm:1.0.1"],\
             ["ts-log", "npm:2.2.5"],\
+            ["ts-node", "virtual:494ac4fac2c5d751cbc27a7ab42b347b83e5441d0b20d87f9baa54c7f9b94c7df2a21a947d0f5f045c7a5c7e234c5912d8b388a0610c29a55b36987adde5740e#npm:10.9.1"],\
             ["tslib", "npm:2.4.0"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
             ["yaml", "npm:1.10.2"],\
             ["yargs", "npm:17.6.0"]\
           ],\
@@ -2885,35 +2888,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["cosmiconfig-typescript-loader", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:4.1.1"],\
             ["@types/cosmiconfig", null],\
-            ["@types/node", null],\
+            ["@types/node", "npm:18.11.7"],\
             ["@types/ts-node", null],\
             ["@types/typescript", null],\
             ["cosmiconfig", "npm:7.0.1"],\
-            ["ts-node", null],\
-            ["typescript", null]\
-          ],\
-          "packagePeers": [\
-            "@types/cosmiconfig",\
-            "@types/node",\
-            "@types/ts-node",\
-            "@types/typescript",\
-            "cosmiconfig",\
-            "ts-node",\
-            "typescript"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:4.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/cosmiconfig-typescript-loader-virtual-9c79732d53/0/cache/cosmiconfig-typescript-loader-npm-4.1.1-77b25222d1-a774961868.zip/node_modules/cosmiconfig-typescript-loader/",\
-          "packageDependencies": [\
-            ["cosmiconfig-typescript-loader", "virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:4.1.1"],\
-            ["@types/cosmiconfig", null],\
-            ["@types/node", null],\
-            ["@types/ts-node", null],\
-            ["@types/typescript", null],\
-            ["cosmiconfig", "npm:7.0.1"],\
-            ["ts-node", "virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:10.9.1"],\
-            ["typescript", null]\
+            ["ts-node", "virtual:494ac4fac2c5d751cbc27a7ab42b347b83e5441d0b20d87f9baa54c7f9b94c7df2a21a947d0f5f045c7a5c7e234c5912d8b388a0610c29a55b36987adde5740e#npm:10.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "packagePeers": [\
             "@types/cosmiconfig",\
@@ -4539,14 +4519,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@graphql-tools/url-loader", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:7.16.5"],\
             ["@graphql-tools/utils", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:8.13.0"],\
             ["@types/graphql", null],\
+            ["@types/node", "npm:18.11.7"],\
             ["cosmiconfig", "npm:7.0.1"],\
             ["cosmiconfig-toml-loader", "npm:1.0.0"],\
-            ["cosmiconfig-typescript-loader", "virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:4.1.1"],\
+            ["cosmiconfig-typescript-loader", "virtual:2e920a6882080c1883743549de28d45d662dc42898b995eff3ddaef9b7e3147f6ef8dde3992508f7b43ff118675671db1419a2a9caaa648ab46f0fcb0f41d7db#npm:4.1.1"],\
             ["graphql", "npm:16.6.0"],\
             ["minimatch", "npm:4.2.1"],\
             ["string-env-interpolation", "npm:1.0.1"],\
-            ["ts-node", "virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:10.9.1"],\
-            ["tslib", "npm:2.4.0"]\
+            ["ts-node", "virtual:494ac4fac2c5d751cbc27a7ab42b347b83e5441d0b20d87f9baa54c7f9b94c7df2a21a947d0f5f045c7a5c7e234c5912d8b388a0610c29a55b36987adde5740e#npm:10.9.1"],\
+            ["tslib", "npm:2.4.0"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "packagePeers": [\
             "@types/graphql",\
@@ -7474,42 +7456,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["diff", "npm:4.0.2"],\
             ["make-error", "npm:1.3.6"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
-            ["v8-compile-cache-lib", "npm:3.0.1"],\
-            ["yn", "npm:3.1.1"]\
-          ],\
-          "packagePeers": [\
-            "@swc/core",\
-            "@swc/wasm",\
-            "@types/node",\
-            "@types/swc__core",\
-            "@types/swc__wasm",\
-            "@types/typescript",\
-            "typescript"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:10.9.1", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-50e711bb87/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
-          "packageDependencies": [\
-            ["ts-node", "virtual:d3669e1770893999375bebd8942c1908389b472f167a1ade1630d8cf66a173dec20950d9941627ae030fdc0e7b8d9561592ebcc44ad2a9bfb1f2d61f622bc839#npm:10.9.1"],\
-            ["@cspotcode/source-map-support", "npm:0.8.1"],\
-            ["@swc/core", null],\
-            ["@swc/wasm", null],\
-            ["@tsconfig/node10", "npm:1.0.9"],\
-            ["@tsconfig/node12", "npm:1.0.11"],\
-            ["@tsconfig/node14", "npm:1.0.3"],\
-            ["@tsconfig/node16", "npm:1.0.3"],\
-            ["@types/node", null],\
-            ["@types/swc__core", null],\
-            ["@types/swc__wasm", null],\
-            ["@types/typescript", null],\
-            ["acorn", "npm:8.8.1"],\
-            ["acorn-walk", "npm:8.2.0"],\
-            ["arg", "npm:4.1.3"],\
-            ["create-require", "npm:1.1.1"],\
-            ["diff", "npm:4.0.2"],\
-            ["make-error", "npm:1.3.6"],\
-            ["typescript", null],\
             ["v8-compile-cache-lib", "npm:3.0.1"],\
             ["yn", "npm:3.1.1"]\
           ],\
